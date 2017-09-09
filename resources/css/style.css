@@ -19,6 +19,7 @@ header {
   height: 69px;
   vertical-align: middle;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   z-index: 1;
 }
@@ -40,3 +41,48 @@ nav li {
 }
 
 /* Page Body */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page-body {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Statement */
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+  height: 700px;
+  align-items: center;
+}
+.mission-tagline {
+    margin: auto;
+    vertical-align: middle;
+    background-color: black;
+    width: 100%;
+}
+
+/* Tea of the Month */
+.tea-of-the-month {
+  margin: auto;
+  padding-top: 50px;
+  /*height: 700px;*/
+  width: 1000px;
+}
+.tea-images {
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+.tea-image img {
+  height: 200px;
+  width: 300px;
+}
+.tea-image span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
