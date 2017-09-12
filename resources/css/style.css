@@ -70,19 +70,53 @@ nav li {
 .tea-of-the-month {
   margin: auto;
   padding-top: 50px;
-  /*height: 700px;*/
+  padding-bottom: 50px;
   width: 1000px;
 }
 .tea-images {
-  padding-bottom: 10px;
   justify-content: space-around;
 }
 .tea-image img {
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 .tea-image span {
   display: block;
-  padding: 5px;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Tea Cozy Locations */
+.tea-cozy-locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 40px;
+}
+.location-boxes {
+  margin: auto;
+  justify-content: center;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 275px;
+  opacity: 1.0;
+  height: 300px;
+  width: 300px;
+  margin: 15px 40px;
+  background-color: black;
+}
+
+/* Contact Tea Cozy */
+.contact-us {
+  padding-top: 10px;
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  padding-left: 20px;
+  text-align: left
 }
