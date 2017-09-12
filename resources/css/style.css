@@ -7,21 +7,24 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* Header */
 header {
   font-family: Helvetica;
   font-size: 22px;
   position: fixed;
-  display: flex;
-  width: 100%;
-  border-bottom: 1px solid seashell;
   height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
   vertical-align: middle;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  z-index: 1;
+  z-index: 5;
 }
 .logo {
   display: flex;
@@ -41,11 +44,6 @@ nav li {
 }
 
 /* Page Body */
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .page-body {
   padding-top: 69px;
   width: 1200px;
